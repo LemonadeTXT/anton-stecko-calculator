@@ -16,7 +16,8 @@ To perform arithmetic operations, you must enter the first operation, enter the 
 
 ## Functional
 
-+ -> Addition operator;
+«#»
+<+> -> Addition operator;
 - -> Subtraction operator;
 * -> Multiplication operator;
 / -> division operator;
