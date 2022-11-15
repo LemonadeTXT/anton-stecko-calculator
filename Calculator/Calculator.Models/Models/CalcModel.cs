@@ -56,5 +56,7 @@ namespace Calculator.Model
                     OutputChanged!();
             }
         }
+
+        public string? OutPut { get; set; }
     }
 }

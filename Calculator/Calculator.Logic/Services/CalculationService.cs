@@ -80,6 +80,16 @@ namespace Calculator.Logic
             _model.Output = string.Empty;
         }
 
+        public string ClearOutputField(CalcModel model)
+        {
+            if (model?.OutPut?.Length == 0)
+            {
+                return "empty";
+            }
+
+           return string.Empty;
+        }
+
         public void NumberButtonPressed(string input)
         {
             if (string.IsNullOrEmpty(input))
@@ -99,6 +109,21 @@ namespace Calculator.Logic
             }
 
             _model.Output = input;
+        }
+
+        public string NumberButtonIsPressed(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+            {
+                return string.Empty;
+            }
+
+            if (!int.TryParse(input, out _) || _model.OutPut.Length > 8)
+            {
+                return string.Empty;
+            }
+
+            return input;
         }
 
         public void OperationButtonPressed(string input)
