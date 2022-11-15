@@ -16,11 +16,10 @@ To perform arithmetic operations, you must enter the first operation, enter the 
 
 ## Functional
 
-«#»
-<+> -> Addition operator;
-- -> Subtraction operator;
-* -> Multiplication operator;
-/ -> division operator;
-+/- -> Change number to positive/negative;
-= -> Display the result of the calculation;
-c -> Deletes the entered value/result.
+\+ -> Addition operator;
+\- -> Subtraction operator;
+\* -> Multiplication operator;
+\/ -> division operator;
+\+/- -> Change number to positive/negative;
+\= -> Display the result of the calculation;
+\c -> Deletes the entered value/result.
