@@ -4,7 +4,6 @@
 A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations.
 
 ## Usage
-To perform operations on numbers, you must enter the first number (first operand), find the arithmetic operation and enter the second number (second operand).
 
 Entering the digit of the highest operand begins with the rightmost digit and follows the rules for working with a digital display and scoreboard.
 
