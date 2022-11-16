@@ -19,7 +19,7 @@ namespace Calculator.App
 
         private void RefreshOutputField() => textDisplay.Text = _service.GetResultString();
 
-        private void NumberNutton_Click(object sender, RoutedEventArgs e)
+        private void NumberButton_Click(object sender, RoutedEventArgs e)
         {
             _service.NumberButtonPressed((string)((Button)sender).Content);
         }
@@ -60,6 +60,5 @@ namespace Calculator.App
             ButtonResult.IsEnabled = true;
         }
         private void ButtonNegation_Click(object sender, EventArgs e) => _service.NegateNubmer();
-
     }
 }
