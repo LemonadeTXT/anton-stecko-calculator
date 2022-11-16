@@ -1,10 +1,9 @@
-# calculator-anton-stecko
+# anton-stecko-calculator
 
 ## What is calculator?
 A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations.
 
 ## Usage
-To perform operations on numbers, you must enter the first number (first operand), find the arithmetic operation and enter the second number (second operand).
 
 Entering the digit of the highest operand begins with the rightmost digit and follows the rules for working with a digital display and scoreboard.
 
@@ -12,7 +11,7 @@ To perform arithmetic operations, you must enter the first operation, enter the 
 
 ## Calculator view
 
-![image](https://user-images.githubusercontent.com/87601057/201914752-7eecd18a-c2ff-4829-9598-571f0d2ef826.png)
+![image](https://user-images.githubusercontent.com/87601057/202111021-8f0bb5b0-85db-46bb-b6af-278d72a48461.png)
 
 ## Functional
 
