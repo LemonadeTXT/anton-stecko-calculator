@@ -12,7 +12,7 @@ To perform arithmetic operations, you must enter the first operation, enter the 
 
 ## Calculator view
 
-![image](https://user-images.githubusercontent.com/87601057/201914752-7eecd18a-c2ff-4829-9598-571f0d2ef826.png)
+![image](https://user-images.githubusercontent.com/87601057/202111021-8f0bb5b0-85db-46bb-b6af-278d72a48461.png)
 
 ## Functional
 
