@@ -21,7 +21,7 @@ To perform arithmetic operations, you must enter the first operation, enter the 
 `c` -> Deletes the entered value/result.<br/>
 
 ## Architecture
-#MainWindow class contains 6 methods:
+###MainWindow class contains 6 methods:
 RefreshOutputField - refreshing result string;
 NumberButton_Click - inserting number;
 OperationButton_Click - inserting operation;
@@ -29,7 +29,7 @@ EqualsButton_Click - displaing result;
 ClearButton_Click - clearing result string;
 ButtonNegation_Click - changes the sign of a number;
 
-#CalculationService class contains realisation of methods from MainWindow class:
+###CalculationService class contains realisation of methods from MainWindow class:
 GetResultString - getting the result string after any action;
 GetResult - getting the final result;
 CalculateArithmeticExpression - calculating the operation;
