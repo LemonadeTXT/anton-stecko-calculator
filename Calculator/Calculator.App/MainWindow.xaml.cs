@@ -41,24 +41,6 @@ namespace Calculator.App
             _service.ClearOutputField();
         }
 
-        public void OutputBox_TextChanged(object sender, EventArgs e)
-        {
-            string output = textDisplay.Text;
-
-            if (output.Length == 0)
-            {
-                ButtonResult.IsEnabled = false;
-                return;
-            }
-
-            if (char.IsPunctuation(output[^1]) || char.IsSymbol(output[^1]))
-            {
-                ButtonResult.IsEnabled = false;
-                return;
-            }
-
-            ButtonResult.IsEnabled = true;
-        }
         private void ButtonNegation_Click(object sender, EventArgs e) => _service.NegateNubmer();
     }
 }
